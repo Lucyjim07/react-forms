@@ -1,4 +1,5 @@
 import FloatingShape from './components/FloatingShape';
+import SignUpPage from './pages/SignUpPage';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         left='-10%'
         delay={2}
       />
+      <SignUpPage />
     </div>
   );
 };
