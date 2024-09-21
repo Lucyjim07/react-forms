@@ -1,9 +1,11 @@
 import FloatingShape from './components/FloatingShape';
+import EmailVerificationPage from './pages/EmailVerificationPage';
+import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 flex items-center justify-center relative overflow-hidden'>
+    <div className='min-h-screen bg-gradient-to-br from-gray-900 via-green-900 to-emerald-900 flex flex-col gap-y-20 items-center justify-center relative overflow-hidden'>
       <FloatingShape
         color='bg-green-500'
         size='w-64 h-64'
@@ -26,6 +28,8 @@ const App = () => {
         delay={2}
       />
       <SignUpPage />
+      <LoginPage />
+      <EmailVerificationPage />
     </div>
   );
 };
