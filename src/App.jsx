@@ -2,7 +2,9 @@ import FloatingShape from './components/FloatingShape';
 import LoadingSpinner from './components/LoadingSpinner';
 import DashboardPage from './pages/DashboardPage';
 import EmailVerificationPage from './pages/EmailVerificationPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import LoginPage from './pages/LoginPage';
+import ResetPasswordPage from './pages/ResetPasswordPage';
 import SignUpPage from './pages/SignUpPage';
 
 const App = () => {
@@ -32,6 +34,8 @@ const App = () => {
         />
         <SignUpPage />
         <LoginPage />
+        <ForgotPasswordPage />
+        <ResetPasswordPage />
         <EmailVerificationPage />
         <DashboardPage />
       </div>
