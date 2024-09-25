@@ -1,7 +1,9 @@
 import FloatingShape from './components/FloatingShape';
 import LoadingSpinner from './components/LoadingSpinner';
 import LoginFeature from './features/LoginFeature';
-import RegisterFeature from './features/RegisterFeature';
+import PurchaseCancelFeature from './features/PurchaseCancelFeature';
+import PurchaseSuccessFeature from './features/PurchaseSuccessFeature';
+import SignUpFeature from './features/SignUpFeature';
 import DashboardPage from './pages/DashboardPage';
 import EmailVerificationPage from './pages/EmailVerificationPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
@@ -53,8 +55,10 @@ const App = () => {
         </div>
 
         <div className='relative z-50 pt-20'>
-          <RegisterFeature />
+          <SignUpFeature />
           <LoginFeature />
+          <PurchaseSuccessFeature />
+          <PurchaseCancelFeature />
         </div>
       </div>
     </>
