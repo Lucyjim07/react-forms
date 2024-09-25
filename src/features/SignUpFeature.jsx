@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { UserPlus, Mail, Lock, User, ArrowRight, Loader } from 'lucide-react';
 import { useState } from 'react';
 
-const RegisterFeature = () => {
+const SignUpFeature = () => {
   const loading = false;
   const [formData, setFormData] = useState({
     name: '',
@@ -181,4 +181,4 @@ const RegisterFeature = () => {
   );
 };
 
-export default RegisterFeature;
+export default SignUpFeature;
